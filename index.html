@@ -95,7 +95,7 @@
             </svg>
             <svg id="svg_macro3" viewbox="0 0 1920 1080" width=100% style="background: 001429;overflow: hidden">
                 <g id="macro3">
-                    <!-- 跷跷板 -->
+                    <g id="macro3_bg1"></g>
                 </g>
             </svg>
             <svg id="svg_micro1" viewbox="0 0 1920 1080" width=100% height="100%"
@@ -259,7 +259,9 @@
     $("#macro_2_text_2").load("resource/macro/macro2/Since2001.svg", () => initMacro2());
 
     // macro3 花盘界面
-    initMacro3();
+    // initMacro3();
+
+    $("#macro3_bg1").load("resource/macro/macro3/MacroDefault.svg", () => initMacro3());
 
     // micro1 过度界面,森林蒙层
     // $("#micro1_bg").load("resource/micro/micro1/micro1Bg.jpg", () => initMicro1());
